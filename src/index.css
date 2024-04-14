@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 100px; /* Задайте нужные размеры */
+  height: 100px;
+  transition: fill 0.3s; /* Добавляем плавный переход для цвета */
+}
