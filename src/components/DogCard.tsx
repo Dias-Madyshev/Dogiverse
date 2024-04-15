@@ -50,30 +50,32 @@ export const DogCard: React.FC<DogsProps> = ({
   };
 
   return (
-    <div className="w-[350px] mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl border border-gray-300 transition-transform transform hover:scale-105">
+    <div className="Card w-[350px] mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl border border-gray-300 transition-transform transform hover:scale-105">
       <img
         className="w-full h-64 object-cover"
         src={photos}
         alt="Изображение собаки"
       />
       <div className="p-6">
-        <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+        <div className="appointment uppercase tracking-wide text-sm text-red-800 font-semibold">
           {appointment}
         </div>
-        <h1 className="block mt-1 text-lg leading-tight  font-medium text-black hover:underline text-green-700">
+        <h1 className="block mt-1 text-lg leading-tight font-bold  text-black hover:underline text-green-700">
           {name}
         </h1>
         <p className="mt-2 text-gray-500 w-[300px] h-[72px]">{description}</p>
         <div
           onClick={handleActive}
-          className="flex justify-center cursor-pointer mt-[10px]"
+          className="flex justify-center items-center cursor-pointer mt-[10px]"
         >
-          <h2 className="text-[20px]">Добавить в Избранные</h2>
+          <h2 className="text-[20px] font-bold buttonCard text-[20px] w-[300px]  text-center  ">
+            Добавить в Избранные
+          </h2>
 
           <svg
             className={`${
               favoritesDog ? style.ActiveIcon : ""
-            } ${"w-[30px] ml-[5px] fill-white text "}`}
+            } ${"w-[30px] ml-[5px] fill-white text mt-[6px] "}`}
             viewBox="0 0 24 24"
             fill="red"
             xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +89,6 @@ export const DogCard: React.FC<DogsProps> = ({
               strokeLinecap="round"
               strokeLinejoin="round"
             />
-            <h2 className="text-[20px]">Добавить в Избранные</h2>
           </svg>
         </div>
       </div>

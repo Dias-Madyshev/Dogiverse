@@ -51,21 +51,23 @@ const Favorites: React.FC<FavoritesProps> = ({
                   alt="Изображение собаки"
                 />
                 <div className="p-6">
-                  <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-                    Домашний питомец
+                  <div className="uppercase  tracking-wide text-sm text-red-800 font-semibold">
+                    {item.appointment}
                   </div>
                   <a
                     href="#"
-                    className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+                    className="block mt-1 text-lg leading-tight font-bold  text-black hover:underline text-green-700"
                   >
                     {item.name}
                   </a>
-                  <p className="mt-2 text-gray-500">
-                    Хаски - это очень ласковый и дружелюбный пес. Он обожает
-                    прогулки и играть с мячом.
+                  <p className="mt-2 text-gray-500 font-bold">
+                    {item.description}
                   </p>
                   <div className="flex justify-center cursor-pointer">
-                    <button onClick={() => removeItemFromCart(index)}>
+                    <button
+                      className="button"
+                      onClick={() => removeItemFromCart(index)}
+                    >
                       Удалить
                     </button>
                   </div>
