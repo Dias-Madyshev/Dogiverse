@@ -1,30 +1,97 @@
-# React + TypeScript + Vite
+# Dogiverse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Добро пожаловать в Doggiverse - Источник интересных фактов и информации о собаках!
 
-Currently, two official plugins are available:
+##
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dogiverse - это веб-приложение для всех, кто обожает собак. Здесь вы найдете информацию о различных породах собак, узнаете их назначение, интересные факты и даже создадите список своих любимых пород. Приложение также предоставляет возможность быстрого поиска по названию породы.
 
-## Expanding the ESLint configuration
+## Установка
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Для установки DoggoPedia выполните следующие шаги:
 
-- Configure the top-level `parserOptions` property like this:
+1. Склонируйте репозиторий на ваш компьютер:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
+- ```bash
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   git clone https://github.com/Dias-Madyshev/Dogiverse.git
+  ```
+
+2. Перейдите в каталог проекта:
+
+- ```bash
+  cd Dogiverse
+  ```
+
+3. Установите зависимости:
+
+- ```bash
+  npm install
+  ```
+
+4. Запустите приложение:
+
+- ```bash
+  npm run dev
+  ```
+
+  ```
+  Приложение будет доступно по адресу http://localhost:3000
+
+  ```
+
+## Использование
+
+### Поиск
+
+- Используйте поле поиска для быстрого поиска по названию породы
+
+### Просмотр пород по назначению
+
+**Категории:**
+
+- Все
+- Охотничьи
+- Декоративные
+- Бойцовские
+- Служебные
+
+В этом разделе вы можете отсортировать собак по назначению
+
+### Избранные породы
+
+- Добавьте породу в избранное, нажав на значок сердечка под карточкой собаки
+- Перейдите на вкладку "Избранные", чтобы просмотреть список избранных пород
+- Породы, добавленные в избранное, сохраняются в Local Storage вашего браузера, поэтому вы можете легко вернуться к ним в любое время.
+
+### Интересные факты о собаках
+
+- Нажмите на аккордеон, чтобы раскрыть интересные факты о собаках и узнать больше о них
+
+## Структура проекта
+
+- **public**: В этой папке находятся логотип
+- **src**: В этой папке находятся исходные файлы React-приложения
+
+- **components**:
+  - **Header.tsx**: Компонент, содержащий навигацию, поле поиска и избранные породы собак
+  - **CategoryDogs.tsx**: Компонент, отвечающий за сортировку собак по категориям
+  - **DogCard.tsx**: Компонент для отображения карточки собаки с основной информацией о породе
+- **pages**:
+  - **Fact.tsx**: Страница для отображения интересных фактов о собаках
+  - **Main.tsx**: Главная страница которая принимает информацию про собак и категорий с API
+  - **Favorites.tsx**: Страница для отображения списка избранных пород собак
+- **Skeleton**:
+  - **SkeletonCart.tsx**:Loader для карточки
+  - **SkeletonCategory.tsx**:Loader для категории
+- **App.tsx**: Основной компонент приложения
+- **index.tsx**: Точка входа в приложение
+
+## Используемые технологии и библиотеки
+
+- HTML, CSS, TypeScript
+- React.ts,Node.js,React-Loading-Skeleton,Tailwind,React-Router,LocalStorage
+
+## Автор
+
+Этот проект создан Dias-Madyshev. Вы можете связаться со мной по электронной почте [madyshev_d@mail.ru]

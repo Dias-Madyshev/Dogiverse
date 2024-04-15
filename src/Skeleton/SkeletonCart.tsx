@@ -1,6 +1,6 @@
 import ContentLoader from "react-content-loader";
 
-const MyLoader = () => (
+const SkeletonCart = () => (
   <ContentLoader
     speed={2}
     width={360}
@@ -18,4 +18,4 @@ const MyLoader = () => (
   </ContentLoader>
 );
 
-export default MyLoader;
+export default SkeletonCart;

@@ -1,5 +1,7 @@
 import React from "react";
+
 import IconPawDog from "/paw-print.png";
+
 import { Link } from "react-router-dom";
 
 type InputProps = {

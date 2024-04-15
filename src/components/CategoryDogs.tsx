@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import style from "./Active.module.css";
 
 interface DogsProps {
@@ -16,7 +17,7 @@ export const CategoryDogs: React.FC<DogsProps> = ({
   isActive,
   onClick,
 }) => {
-  // Обновляем локальное хранилище при изменении свойства isActive
+
   useEffect(() => {
     if (isActive) {
       localStorage.setItem("activeCategoryIndex", index.toString());
