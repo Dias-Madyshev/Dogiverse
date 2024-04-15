@@ -21,7 +21,7 @@ const Facts: React.FC = () => {
   };
 
   return (
-    <div className="w-[1200px] mx-auto mt-[20px]">
+    <div className="Acardion w-[1200px] max-w-full mx-auto mt-[20px]">
       <h1 className="text-4xl font-semibold mb-8 text-center">
         🐶 Интересные факты про собак
       </h1>

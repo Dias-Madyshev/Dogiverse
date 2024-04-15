@@ -13,12 +13,14 @@ const Favorites: React.FC<FavoritesProps> = ({
   search,
 }) => {
   return (
-    <div className="text-center">
+    <div className=" text-center ">
       <h1 className="text-[30px] font-bold my-[15px]">Избранные Собаки</h1>
 
       {cart.length === 0 ? (
         <div className="mt-8">
-          <p className="text-2xl text-gray-500">Нет избранных</p>
+          <p className="text-2xl text-gray-500">
+            Пожалуйста выберите избранную собаку🙃
+          </p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-20 w-20 mx-auto text-gray-300 mt-4"
@@ -35,7 +37,7 @@ const Favorites: React.FC<FavoritesProps> = ({
           </svg>
         </div>
       ) : (
-        <div className="mt-30 grid grid-cols-4 grid-rows-3 gap-x-15== gap-y-10 ">
+        <div className="Favorites ">
           {cart
             .filter((obj) => {
               return obj.name.toLowerCase().includes(search.toLowerCase());
@@ -60,9 +62,7 @@ const Favorites: React.FC<FavoritesProps> = ({
                   >
                     {item.name}
                   </a>
-                  <p className="mt-2 text-gray-500 font-bold">
-                    {item.description}
-                  </p>
+                  <p className="mt-2 text-gray-500 ">{item.description}</p>
                   <div className="flex justify-center cursor-pointer">
                     <button
                       className="button"

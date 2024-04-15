@@ -29,26 +29,28 @@ export const Header: React.FC<InputProps> = ({ size, search, setSearch }) => {
         <Link to="/facts">
           <span className=" hover:text-gray-200 text-[20px]">Факты</span>
         </Link>
+        <div className="relative">
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            type="text"
+            className="Input  text-[20px] transition-all duration-150 ease-in-out  inline-block text-black w-[400px] h-[40px]  px-4 py-2 border rounded-md shadow-md focus:outline-none focus:border-blue-500"
+            placeholder="Введите текст..."
+          />
 
-        <input
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          type="text"
-          className="Input text-[20px] transition-all duration-150 ease-in-out relative inline-block text-black w-[400px] h-[40px]  px-4 py-2 border rounded-md shadow-md focus:outline-none focus:border-blue-500"
-          placeholder="Введите текст..."
-        />
+          <svg
+            onClick={() => setSearch("")}
+            className="clearIcon absolute right-[5px] w-[25px] top-[20px]  -translate-y-1/2 opacity-30 cursor-pointer  "
+            height="48"
+            viewBox="0 0 48 48"
+            width="48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z" />
+            <path d="M0 0h48v48H0z" fill="none" />
+          </svg>
+        </div>
 
-        <svg
-          onClick={() => setSearch("")}
-          className="clearIcon"
-          height="48"
-          viewBox="0 0 48 48"
-          width="48"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z" />
-          <path d="M0 0h48v48H0z" fill="none" />
-        </svg>
         <Link to="favorites">
           <div className="flex relative ">
             <span className="font-semibold text-[20px] hover:text-gray-200">
