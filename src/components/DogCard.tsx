@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import { DogModal } from './DogModal'
 
-import style from './Active.module.css'
-
 export interface ItemData {
   id: number
   photos: string
