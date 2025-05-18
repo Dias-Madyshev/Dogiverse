@@ -43,6 +43,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.57.1"],\
           ["eslint-plugin-react-hooks", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:0.4.20"],\
+          ["framer-motion", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:12.12.1"],\
           ["i18next", "npm:23.16.8"],\
           ["i18next-browser-languagedetector", "npm:7.2.2"],\
           ["i18next-http-backend", "npm:2.7.3"],\
@@ -55,6 +56,7 @@ const RAW_RUNTIME_STATE =
           ["react-i18next", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:14.1.3"],\
           ["react-router-dom", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:6.30.0"],\
           ["sort-by", "npm:1.2.0"],\
+          ["tailwind-scrollbar", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:4.0.2"],\
           ["tailwindcss", "npm:3.4.17"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["vite", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:5.4.19"]\
@@ -3755,6 +3757,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/prismjs", [\
+      ["npm:1.26.5", {\
+        "packageLocation": "../../../../Users/madys/AppData/Local/Yarn/Berry/cache/@types-prismjs-npm-1.26.5-5c39951991-10c0.zip/node_modules/@types/prismjs/",\
+        "packageDependencies": [\
+          ["@types/prismjs", "npm:1.26.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/prop-types", [\
       ["npm:15.7.14", {\
         "packageLocation": "../../../../Users/madys/AppData/Local/Yarn/Berry/cache/@types-prop-types-npm-15.7.14-4ccaa07795-10c0.zip/node_modules/@types/prop-types/",\
@@ -4805,6 +4816,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.57.1"],\
           ["eslint-plugin-react-hooks", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:4.6.2"],\
           ["eslint-plugin-react-refresh", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:0.4.20"],\
+          ["framer-motion", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:12.12.1"],\
           ["i18next", "npm:23.16.8"],\
           ["i18next-browser-languagedetector", "npm:7.2.2"],\
           ["i18next-http-backend", "npm:2.7.3"],\
@@ -4817,6 +4829,7 @@ const RAW_RUNTIME_STATE =
           ["react-i18next", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:14.1.3"],\
           ["react-router-dom", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:6.30.0"],\
           ["sort-by", "npm:1.2.0"],\
+          ["tailwind-scrollbar", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:4.0.2"],\
           ["tailwindcss", "npm:3.4.17"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["vite", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:5.4.19"]\
@@ -5340,6 +5353,39 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../Users/madys/AppData/Local/Yarn/Berry/cache/fraction.js-npm-4.3.7-c2c7e95a8e-10c0.zip/node_modules/fraction.js/",\
         "packageDependencies": [\
           ["fraction.js", "npm:4.3.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["framer-motion", [\
+      ["npm:12.12.1", {\
+        "packageLocation": "../../../../Users/madys/AppData/Local/Yarn/Berry/cache/framer-motion-npm-12.12.1-31e9ca406d-10c0.zip/node_modules/framer-motion/",\
+        "packageDependencies": [\
+          ["framer-motion", "npm:12.12.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:12.12.1", {\
+        "packageLocation": "./.yarn/__virtual__/framer-motion-virtual-2266a9f231/5/Users/madys/AppData/Local/Yarn/Berry/cache/framer-motion-npm-12.12.1-31e9ca406d-10c0.zip/node_modules/framer-motion/",\
+        "packageDependencies": [\
+          ["framer-motion", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:12.12.1"],\
+          ["@emotion/is-prop-valid", null],\
+          ["@types/emotion__is-prop-valid", null],\
+          ["@types/react", "npm:18.3.21"],\
+          ["@types/react-dom", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:18.3.7"],\
+          ["motion-dom", "npm:12.12.1"],\
+          ["motion-utils", "npm:12.12.1"],\
+          ["react", "npm:18.3.1"],\
+          ["react-dom", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:18.3.1"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "packagePeers": [\
+          "@emotion/is-prop-valid",\
+          "@types/emotion__is-prop-valid",\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6164,6 +6210,25 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["motion-dom", [\
+      ["npm:12.12.1", {\
+        "packageLocation": "../../../../Users/madys/AppData/Local/Yarn/Berry/cache/motion-dom-npm-12.12.1-05911c06f5-10c0.zip/node_modules/motion-dom/",\
+        "packageDependencies": [\
+          ["motion-dom", "npm:12.12.1"],\
+          ["motion-utils", "npm:12.12.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["motion-utils", [\
+      ["npm:12.12.1", {\
+        "packageLocation": "../../../../Users/madys/AppData/Local/Yarn/Berry/cache/motion-utils-npm-12.12.1-63d9ae8f87-10c0.zip/node_modules/motion-utils/",\
+        "packageDependencies": [\
+          ["motion-utils", "npm:12.12.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ms", [\
       ["npm:2.1.3", {\
         "packageLocation": "../../../../Users/madys/AppData/Local/Yarn/Berry/cache/ms-npm-2.1.3-81ff3cfac1-10c0.zip/node_modules/ms/",\
@@ -6660,6 +6725,30 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../Users/madys/AppData/Local/Yarn/Berry/cache/prelude-ls-npm-1.2.1-3e4d272a55-10c0.zip/node_modules/prelude-ls/",\
         "packageDependencies": [\
           ["prelude-ls", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["prism-react-renderer", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "../../../../Users/madys/AppData/Local/Yarn/Berry/cache/prism-react-renderer-npm-2.4.1-b9eaf468f6-10c0.zip/node_modules/prism-react-renderer/",\
+        "packageDependencies": [\
+          ["prism-react-renderer", "npm:2.4.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:689efd029d5da2a9ec5268522b98b6d62bca188cf17444e3522b380bc43321f4eb63379d0ecb877cb7010c25c8456d3de8040e3c6b91e6a048ffbea13479b276#npm:2.4.1", {\
+        "packageLocation": "./.yarn/__virtual__/prism-react-renderer-virtual-825757a2cb/5/Users/madys/AppData/Local/Yarn/Berry/cache/prism-react-renderer-npm-2.4.1-b9eaf468f6-10c0.zip/node_modules/prism-react-renderer/",\
+        "packageDependencies": [\
+          ["prism-react-renderer", "virtual:689efd029d5da2a9ec5268522b98b6d62bca188cf17444e3522b380bc43321f4eb63379d0ecb877cb7010c25c8456d3de8040e3c6b91e6a048ffbea13479b276#npm:2.4.1"],\
+          ["@types/prismjs", "npm:1.26.5"],\
+          ["@types/react", null],\
+          ["clsx", "npm:2.1.1"],\
+          ["react", null]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7360,6 +7449,29 @@ const RAW_RUNTIME_STATE =
           ["css-what", "npm:6.1.0"],\
           ["csso", "npm:5.0.5"],\
           ["picocolors", "npm:1.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tailwind-scrollbar", [\
+      ["npm:4.0.2", {\
+        "packageLocation": "../../../../Users/madys/AppData/Local/Yarn/Berry/cache/tailwind-scrollbar-npm-4.0.2-cea16f4fc9-10c0.zip/node_modules/tailwind-scrollbar/",\
+        "packageDependencies": [\
+          ["tailwind-scrollbar", "npm:4.0.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:4.0.2", {\
+        "packageLocation": "./.yarn/__virtual__/tailwind-scrollbar-virtual-689efd029d/5/Users/madys/AppData/Local/Yarn/Berry/cache/tailwind-scrollbar-npm-4.0.2-cea16f4fc9-10c0.zip/node_modules/tailwind-scrollbar/",\
+        "packageDependencies": [\
+          ["tailwind-scrollbar", "virtual:ebb83bc756c61bcc77d7569e700d4bf82eb9053e7215ff05c4e8d143f2832d7558021f017c0244136f221ab3a0139e1e21358cb09f0f6ea3685972b0d305276f#npm:4.0.2"],\
+          ["@types/tailwindcss", null],\
+          ["prism-react-renderer", "virtual:689efd029d5da2a9ec5268522b98b6d62bca188cf17444e3522b380bc43321f4eb63379d0ecb877cb7010c25c8456d3de8040e3c6b91e6a048ffbea13479b276#npm:2.4.1"],\
+          ["tailwindcss", "npm:3.4.17"]\
+        ],\
+        "packagePeers": [\
+          "@types/tailwindcss",\
+          "tailwindcss"\
         ],\
         "linkType": "HARD"\
       }]\

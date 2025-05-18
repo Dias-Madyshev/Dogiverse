@@ -1,24 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import './assets/scrollbar.css';
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
   background-color: #ffffff;
 }
+
 .Cards {
-  margin-top: 30px;
+  margin: 30px auto;
+  max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 15px;
-  grid-row-gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  padding: 0 20px;
 }
+
 .Favorites {
-  margin-top: 30px;
+  margin: 30px auto;
+  max-width: 1200px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 15px;
-  grid-row-gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  padding: 0 20px;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -35,6 +39,7 @@ img {
 .clearIcon:hover {
   opacity: 0.8;
 }
+
 .Svg {
   fill: blue;
 }
@@ -49,11 +54,12 @@ img {
   margin-top: 10px;
   transition: 20ms;
 }
+
 .button:hover {
   opacity: 0.8;
-
   font-size: 18px;
 }
+
 .buttonCard {
   background-color: rgb(76, 138, 197);
   padding: 7px;
@@ -64,44 +70,29 @@ img {
   margin-top: 10px;
   transition: 20ms;
 }
+
 .buttonCard:hover {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1441px) {
-  .Cards {
-    display: grid;
+/* Responsive Grid Breakpoints */
+@media screen and (max-width: 1440px) {
+  .Cards,
+  .Favorites {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 50px;
-  }
-}
-@media screen and (max-width: 1095px) {
-  .Cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 50px;
   }
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1024px) {
+  .Cards,
   .Favorites {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 1202px) {
+
+@media screen and (max-width: 640px) {
+  .Cards,
   .Favorites {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 50px;
+    grid-template-columns: 1fr;
   }
 }
